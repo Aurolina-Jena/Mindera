@@ -1,0 +1,50 @@
+html{
+     font-size: 62.5%;  
+}
+.clander{
+       display: grid;
+       grid-template-columns: 2rem 3fr;
+       grid-gap:2rem;
+       background-color: #000000d4;
+       padding: 10px;
+       position: relative;
+}
+.event-name{
+       border: 0.1rem solid black;
+       border-radius: 0.5rem;
+       background-color: aquamarine;
+       padding: 1rem
+}
+.event-date{
+       color: white;
+}
+#popup{
+    width: 30rem;
+    height:20rem;
+    border:.1rem solid black;
+    margin-top: 0;   
+    position: absolute;
+    z-index: 1;
+    background-color: aliceblue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    
+}
+.hide{
+   display: none;
+}
+.closeIcon{
+       float: right;
+       cursor: pointer;
+}
+.addBtn{
+       float: left;  
+       cursor: pointer; 
+}
+#high-lighter{
+       border-top: 3px solid red;
+}

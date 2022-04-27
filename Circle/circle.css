@@ -1,0 +1,23 @@
+:root{
+  --circle-area: 30px;
+  --sqr-area: 100px;
+}
+.sqr{
+  margin-top: 50px;
+  width: var(--sqr-area);
+  height: var(--sqr-area);
+  background-color: red;
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+.circle {
+  height: var(--circle-area);
+  width: var(--circle-area);
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  align-items: flex-end;
+  margin-right: calc(var(--circle-area)/2 * -1);
+  margin-top: calc(var(--circle-area)/2 * -1);
+ }
